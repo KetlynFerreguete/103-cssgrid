@@ -5,7 +5,7 @@ body{
                         'nav nav nav nav'
                         'section section aside aside'
                         'footer footer footer footer';
-    grid-template-rows: 20vh 12vh 50vh 30vh;
+    grid-template-rows: 20vh 12vh 70vh 20vh;
     /* grid-template-columns: 10vw 30vw 40vw 20vw */
     grid-gap: 10px;
     /* grid-column-gap: 10px;
@@ -51,12 +51,15 @@ section{
     background-color: black;
     display: flex;
     justify-content: center;
+    align-items: center;
     grid-area: section;
+    padding: 0 10px;
 }
 
 section img{
     border-radius: 100%;
     width: 300px;
+    height: 300px;
     box-shadow: 11px 5px 20px 0px black;
     margin: 10px 10px 10px 10px;
 }
@@ -82,5 +85,15 @@ aside p{
 
 footer{
     grid-area: footer;
-    background-color: purple;
+    background-color: #093b7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
