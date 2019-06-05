@@ -43,11 +43,27 @@ nav a{
 
 nav a:hover{
     color: orangered;
+    
 }
 
 section{
     grid-area: section;
-    background-color: green;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    grid-area: section;
+}
+
+section img{
+    border-radius: 100%;
+    width: 300px;
+    box-shadow: 11px 5px 20px 0px black;
+    margin: 10px 10px 10px 10px;
+}
+
+section img:hover{
+    width: 310px;
+    height: 310px;
 }
 
 aside{
