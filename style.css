@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    padding: 10px;
     display: grid;
     grid-template-areas: 'header header header header'
                         'nav nav nav nav'
@@ -12,6 +11,7 @@ body{
     /* grid-column-gap: 10px;
     grid-row-gap: 10px; */
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
@@ -28,7 +28,21 @@ header img{
 
 nav{
     grid-area: nav;
-    background-color: blue;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+nav a:hover{
+    color: orangered;
 }
 
 section{
