@@ -68,7 +68,16 @@ section img:hover{
 
 aside{
     grid-area: aside;
-    background-color: yellow;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 0 30px;
+}
+
+aside p{
+    color: white;
+    font-weight: lighter;
 }
 
 footer{
