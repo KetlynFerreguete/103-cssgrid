@@ -16,7 +16,14 @@ body{
 
 header{
     grid-area: header;
-    background-color: red;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    height: 100%;
+    width: 125px;
 }
 
 nav{
